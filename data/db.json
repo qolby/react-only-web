@@ -1,0 +1,850 @@
+{
+  "menus": [
+    {
+      "id": "b021",
+      "name": "Nasi Goreng Hongkong",
+      "price": 25000,
+      "stock": 1,
+      "category": "makanan"
+    },
+    {
+      "id": "783c",
+      "name": "Es Teh",
+      "price": 5000,
+      "stock": 64,
+      "category": "minuman"
+    },
+    {
+      "id": "5417",
+      "name": "Mie Goreng Ayam",
+      "price": 25000,
+      "stock": 5,
+      "category": "makanan"
+    },
+    {
+      "id": "8f9d",
+      "name": "Kentang Goreng",
+      "price": "15000",
+      "stock": 0,
+      "category": "makanan"
+    },
+    {
+      "id": "944f",
+      "name": "Ice Coffee Latte",
+      "price": "26000",
+      "stock": 5,
+      "category": "minuman"
+    },
+    {
+      "id": "fde7",
+      "name": "Nasi Goreng Bakso",
+      "price": "20000",
+      "stock": 2,
+      "category": "makanan"
+    },
+    {
+      "id": "f7f5",
+      "name": "Tahu Pong",
+      "price": "15000",
+      "stock": 15,
+      "category": "makanan"
+    },
+    {
+      "id": "edb8",
+      "name": "Nasi Ayam Jamur",
+      "price": "35000",
+      "stock": 7,
+      "category": "makanan"
+    },
+    {
+      "id": "33c6",
+      "name": "Nasi Goreng Sosis",
+      "price": "20000",
+      "stock": 7,
+      "category": "makanan"
+    },
+    {
+      "id": "1546",
+      "name": "Air Mineral",
+      "price": "7000",
+      "stock": 36,
+      "category": "minuman"
+    },
+    {
+      "id": "734f",
+      "name": "Kopi Susu Lain",
+      "price": 15000,
+      "stock": 89,
+      "category": "minuman"
+    },
+    {
+      "id": "4a29",
+      "name": "Americano",
+      "price": "15000",
+      "stock": 55,
+      "category": "minuman"
+    },
+    {
+      "id": "5c15",
+      "name": "Lemon Tea",
+      "price": "15000",
+      "stock": 89,
+      "category": "minuman"
+    }
+  ],
+  "orders": [
+    {
+      "id": "e1b1",
+      "customerName": "Yoga",
+      "orderNumber": "70118",
+      "orderType": "Dine In",
+      "date": "2024-06-25",
+      "time": "1:44:02 AM",
+      "items": [
+        {
+          "id": "b021",
+          "name": "Nasi Goreng Hongkong",
+          "price": 25000,
+          "stock": 9,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "33c6",
+          "name": "Nasi Goreng Sosis",
+          "price": "20000",
+          "stock": 9,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "8f9d",
+          "name": "Kentang Goreng",
+          "price": "15000",
+          "stock": 6,
+          "category": "makanan",
+          "quantity": 2
+        },
+        {
+          "id": "1546",
+          "name": "Air Mineral",
+          "price": "7000",
+          "stock": 46,
+          "category": "minuman",
+          "quantity": 2
+        }
+      ],
+      "total": 89000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "7160",
+      "customerName": "John Doe",
+      "orderNumber": "49360",
+      "orderType": "Take Away",
+      "date": "2024-06-25",
+      "time": "1:46:48 AM",
+      "items": [
+        {
+          "id": "1546",
+          "name": "Air Mineral",
+          "price": "7000",
+          "stock": 44,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 95,
+          "category": "minuman",
+          "quantity": 10
+        },
+        {
+          "id": "783c",
+          "name": "Es Teh",
+          "price": 5000,
+          "stock": 94,
+          "category": "minuman",
+          "quantity": 9
+        }
+      ],
+      "total": 202000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "81a7",
+      "customerName": "Bob",
+      "orderNumber": "24631",
+      "orderType": "Dine In",
+      "date": "2024-06-25",
+      "time": "1:58:49 AM",
+      "items": [
+        {
+          "id": "fde7",
+          "name": "Nasi Goreng Bakso",
+          "price": "20000",
+          "stock": 9,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "b021",
+          "name": "Nasi Goreng Hongkong",
+          "price": 25000,
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "5417",
+          "name": "Mie Goreng Ayam",
+          "price": 25000,
+          "stock": 9,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "1546",
+          "name": "Air Mineral",
+          "price": "7000",
+          "stock": 43,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 85,
+          "category": "minuman",
+          "quantity": 1
+        }
+      ],
+      "total": 92000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "bde1",
+      "customerName": "Girl",
+      "orderNumber": "58016",
+      "orderType": "Take Away",
+      "date": "2024-06-25",
+      "time": "2:01:27 AM",
+      "items": [
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 84,
+          "category": "minuman",
+          "quantity": 10
+        }
+      ],
+      "total": 150000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "5bc8",
+      "customerName": "New Man",
+      "orderNumber": "9351",
+      "orderType": "Take Away",
+      "date": "2024-06-25",
+      "time": "2:04:52 AM",
+      "items": [
+        {
+          "id": "783c",
+          "name": "Es Teh",
+          "price": 5000,
+          "stock": 85,
+          "category": "minuman",
+          "quantity": 7
+        }
+      ],
+      "total": 35000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "b7ef",
+      "customerName": "Hook",
+      "orderNumber": "51466",
+      "orderType": "Take Away",
+      "date": "2024-06-25",
+      "time": "2:19:44 AM",
+      "items": [
+        {
+          "id": "783c",
+          "name": "Es Teh",
+          "price": 5000,
+          "stock": 78,
+          "category": "minuman",
+          "quantity": 10
+        }
+      ],
+      "total": 50000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "d722",
+      "customerName": "Jack",
+      "orderNumber": "97791",
+      "orderType": "Dine In",
+      "date": "2024-06-25",
+      "time": "3:03:19 AM",
+      "items": [
+        {
+          "id": "734f",
+          "name": "Kopi Susu Lain",
+          "price": 15000,
+          "stock": 99,
+          "category": "minuman",
+          "quantity": 6
+        }
+      ],
+      "total": 90000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "60f1",
+      "customerName": "Kris",
+      "orderNumber": "14941",
+      "orderType": "Dine In",
+      "date": "2024-06-26",
+      "time": "10:44:10 AM",
+      "items": [
+        {
+          "id": "b021",
+          "name": "Nasi Goreng Hongkong",
+          "price": 25000,
+          "stock": 7,
+          "category": "makanan",
+          "quantity": 2
+        },
+        {
+          "id": "783c",
+          "name": "Es Teh",
+          "price": 5000,
+          "stock": 68,
+          "category": "minuman",
+          "quantity": 2
+        },
+        {
+          "id": "8f9d",
+          "name": "Kentang Goreng",
+          "price": "15000",
+          "stock": 4,
+          "category": "makanan",
+          "quantity": 1
+        }
+      ],
+      "total": 75000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "591c",
+      "customerName": "Qolby",
+      "orderNumber": "87772",
+      "orderType": "Dine In",
+      "date": "2024-06-26",
+      "time": "11:01:50 AM",
+      "items": [
+        {
+          "id": "edb8",
+          "name": "Nasi Ayam Jamur",
+          "price": "35000",
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "734f",
+          "name": "Kopi Susu Lain",
+          "price": 15000,
+          "stock": 93,
+          "category": "minuman",
+          "quantity": 1
+        }
+      ],
+      "total": 50000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "46c4",
+      "customerName": "Qolby",
+      "orderNumber": "8699",
+      "orderType": "Take Away",
+      "date": "2024-06-26",
+      "time": "11:28:43 AM",
+      "items": [
+        {
+          "id": "b021",
+          "name": "Nasi Goreng Hongkong",
+          "price": 25000,
+          "stock": 5,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "fde7",
+          "name": "Nasi Goreng Bakso",
+          "price": "20000",
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 74,
+          "category": "minuman",
+          "quantity": 1
+        }
+      ],
+      "total": 60000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "6d04",
+      "customerName": "Bobby",
+      "orderNumber": "62223",
+      "orderType": "Dine In",
+      "date": "2024-06-26",
+      "time": "4:12:46 PM",
+      "items": [
+        {
+          "id": "734f",
+          "name": "Kopi Susu Lain",
+          "price": 15000,
+          "stock": 92,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "edb8",
+          "name": "Nasi Ayam Jamur",
+          "price": "35000",
+          "stock": 7,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "33c6",
+          "name": "Nasi Goreng Sosis",
+          "price": "20000",
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 1
+        }
+      ],
+      "total": 70000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "bb6d",
+      "customerName": "Jane Doe",
+      "orderNumber": "14900",
+      "orderType": "Take Away",
+      "date": "2024-06-26",
+      "time": "10:23:57 PM",
+      "items": [
+        {
+          "id": "b021",
+          "name": "Nasi Goreng Hongkong",
+          "price": 25000,
+          "stock": 4,
+          "category": "makanan",
+          "quantity": 2
+        },
+        {
+          "id": "33c6",
+          "name": "Nasi Goreng Sosis",
+          "price": "20000",
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 1
+        }
+      ],
+      "total": 70000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "029d",
+      "customerName": "bdxv",
+      "orderNumber": "74587",
+      "orderType": "Dine In",
+      "date": "2024-06-27",
+      "time": "8:15:56 PM",
+      "items": [
+        {
+          "id": "8f9d",
+          "name": "Kentang Goreng",
+          "price": "15000",
+          "stock": 3,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "5417",
+          "name": "Mie Goreng Ayam",
+          "price": 25000,
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "edb8",
+          "name": "Nasi Ayam Jamur",
+          "price": "35000",
+          "stock": 7,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "33c6",
+          "name": "Nasi Goreng Sosis",
+          "price": "20000",
+          "stock": 7,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "944f",
+          "name": "Ice Coffee Latte",
+          "price": "26000",
+          "stock": 13,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "1546",
+          "name": "Air Mineral",
+          "price": "7000",
+          "stock": 41,
+          "category": "minuman",
+          "quantity": 1
+        }
+      ],
+      "total": 128000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "b869",
+      "customerName": "John",
+      "orderNumber": "28071",
+      "orderType": "Take Away",
+      "date": "2024-06-27",
+      "time": "8:54:27 PM",
+      "items": [
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 73,
+          "category": "minuman",
+          "quantity": 4
+        },
+        {
+          "id": "fde7",
+          "name": "Nasi Goreng Bakso",
+          "price": "20000",
+          "stock": 7,
+          "category": "makanan",
+          "quantity": 3
+        }
+      ],
+      "total": 120000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "4411",
+      "customerName": "Mark",
+      "orderNumber": "39162",
+      "orderType": "Take Away",
+      "date": "2024-06-27",
+      "time": "11:44:42 PM",
+      "items": [
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 69,
+          "category": "minuman",
+          "quantity": 4
+        }
+      ],
+      "total": 60000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "e988",
+      "customerName": "Mike",
+      "orderNumber": "9650",
+      "orderType": "Dine In",
+      "date": "2024-06-27",
+      "time": "11:46:57 PM",
+      "items": [
+        {
+          "id": "5c15",
+          "name": "Lemon Tea",
+          "price": "15000",
+          "stock": 97,
+          "category": "minuman",
+          "quantity": 5
+        }
+      ],
+      "total": 75000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "a785",
+      "customerName": "eo",
+      "orderNumber": "1665",
+      "orderType": "Take Away",
+      "date": "2024-06-28",
+      "time": "10:46:09 AM",
+      "items": [
+        {
+          "id": "734f",
+          "name": "Kopi Susu Lain",
+          "price": 15000,
+          "stock": 92,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "8f9d",
+          "name": "Kentang Goreng",
+          "price": "15000",
+          "stock": 3,
+          "category": "makanan",
+          "quantity": 1
+        }
+      ],
+      "total": 30000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "b333",
+      "customerName": "Yoga",
+      "orderNumber": "25166",
+      "orderType": "Take Away",
+      "date": "2024-06-28",
+      "time": "10:55:35 AM",
+      "items": [
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 65,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "734f",
+          "name": "Kopi Susu Lain",
+          "price": 15000,
+          "stock": 91,
+          "category": "minuman",
+          "quantity": 1
+        }
+      ],
+      "total": 30000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "b15e",
+      "customerName": "Goose",
+      "orderNumber": "79851",
+      "orderType": "Take Away",
+      "date": "2024-07-11",
+      "time": "1:36:53 AM",
+      "items": [
+        {
+          "id": "734f",
+          "name": "Kopi Susu Lain",
+          "price": 15000,
+          "stock": 90,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "1546",
+          "name": "Air Mineral",
+          "price": "7000",
+          "stock": 40,
+          "category": "minuman",
+          "quantity": 3
+        },
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 64,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "783c",
+          "name": "Es Teh",
+          "price": 5000,
+          "stock": 66,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "944f",
+          "name": "Ice Coffee Latte",
+          "price": "26000",
+          "stock": 12,
+          "category": "minuman",
+          "quantity": 4
+        },
+        {
+          "id": "8f9d",
+          "name": "Kentang Goreng",
+          "price": "15000",
+          "stock": 2,
+          "category": "makanan",
+          "quantity": 1
+        },
+        {
+          "id": "5c15",
+          "name": "Lemon Tea",
+          "price": "15000",
+          "stock": 92,
+          "category": "minuman",
+          "quantity": 3
+        },
+        {
+          "id": "5417",
+          "name": "Mie Goreng Ayam",
+          "price": 25000,
+          "stock": 8,
+          "category": "makanan",
+          "quantity": 3
+        },
+        {
+          "id": "fde7",
+          "name": "Nasi Goreng Bakso",
+          "price": "20000",
+          "stock": 4,
+          "category": "makanan",
+          "quantity": 2
+        },
+        {
+          "id": "f7f5",
+          "name": "Tahu Pong",
+          "price": "15000",
+          "stock": 19,
+          "category": "makanan",
+          "quantity": 4
+        },
+        {
+          "id": "b021",
+          "name": "Nasi Goreng Hongkong",
+          "price": 25000,
+          "stock": 2,
+          "category": "makanan",
+          "quantity": 1
+        }
+      ],
+      "total": 420000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "5447",
+      "customerName": "John",
+      "orderNumber": "72496",
+      "orderType": "Dine In",
+      "date": "2024-12-13",
+      "time": "5:22:36 PM",
+      "items": [
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 63,
+          "category": "minuman",
+          "quantity": 4
+        },
+        {
+          "id": "783c",
+          "name": "Es Teh",
+          "price": 5000,
+          "stock": 65,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "8f9d",
+          "name": "Kentang Goreng",
+          "price": "15000",
+          "stock": 1,
+          "category": "makanan",
+          "quantity": 1
+        }
+      ],
+      "total": 80000,
+      "status": 3,
+      "payment": 2
+    },
+    {
+      "id": "7d7e",
+      "customerName": "bob",
+      "orderNumber": "64669",
+      "orderType": "Dine In",
+      "date": "2025-08-21",
+      "time": "6:23:22 PM",
+      "items": [
+        {
+          "id": "1546",
+          "name": "Air Mineral",
+          "price": "7000",
+          "stock": 37,
+          "category": "minuman",
+          "quantity": 1
+        },
+        {
+          "id": "4a29",
+          "name": "Americano",
+          "price": "15000",
+          "stock": 59,
+          "category": "minuman",
+          "quantity": 4
+        },
+        {
+          "id": "944f",
+          "name": "Ice Coffee Latte",
+          "price": "26000",
+          "stock": 8,
+          "category": "minuman",
+          "quantity": 3
+        }
+      ],
+      "total": 145000,
+      "status": 1,
+      "payment": 1
+    }
+  ]
+}
